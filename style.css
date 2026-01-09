@@ -114,7 +114,9 @@ body {
 .solution ul li {
     margin-bottom: 10px;
 }
-
+.custom-bullet{
+    list-style-image: url(./assets/CheckCircle.png);
+}
 
 
 /* CTA */
