@@ -66,18 +66,19 @@ body {
     text-align: center;
     padding: 100px 50px;
     background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
     color: #fff;
     
 }
 
 
 
-.banner h1 {
+.banner-h1 {
     font-size: 48px;
     margin: 20px 0;
 }
 
-.banner p {
+.banner-p {
     max-width: 700px;
     margin: 0 auto 30px;
     opacity: 0.9;
@@ -112,6 +113,7 @@ body {
 
 /* SOLUTION */
 .solution {
+    
     padding: 10px 120px;
     display: flex;
     justify-content: space-between;
