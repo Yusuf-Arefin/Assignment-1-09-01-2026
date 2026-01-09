@@ -10,22 +10,23 @@ body {
 /* NAVBAR */
 .navbar {
     display: flex;
-    justify-content: space-evenly;
-    padding: 10px 20px;
+    justify-content: space-around;
+    padding: 10px 10px;
     align-items: center;
 }
 .logo {
      display: flex;
-    justify-content: space-evenly;
-    padding: 10px 20px;
+    padding: 20px 20px;
     align-items: center;
 }
-.navbar nav a {
-    margin: 10px;
+.nav-a {
+    
     text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
     color: #0f172a;
     font-weight: 500;
-    justify-items: center;
+    align-items: center;
 }
 .badge {
     color: #469165;
@@ -33,6 +34,12 @@ body {
     padding: 6px 12px;
     border-radius: 999px;
     font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.badge:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 .btn-primary {
     background: #22c55e;
