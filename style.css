@@ -26,6 +26,7 @@ body {
     font-weight: 500;
 }
 .badge {
+    color: #469165;
     background: #fefffe;
     padding: 6px 12px;
     border-radius: 999px;
@@ -36,7 +37,12 @@ body {
     color: #fff !important;
     padding: 10px 18px;
     border-radius: 6px;
-    
+     transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.btn-primary:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .btn-outline {
@@ -45,7 +51,9 @@ body {
     border-radius: 6px;
     color: #fcfcfc;
     background-color: #d4d4d400;
+    
 }
+
 /* HERO */
 .hero {
     text-align: center;
@@ -103,21 +111,32 @@ body {
 .solution {
     display: flex;
     gap: 60px;
-    padding: 80px 60px;
+    padding: 120px 120px;
     align-items: center;
 }
-
-.solution ul {
-    margin-top: 20px;
+.ddddppp {
+    padding: 10px;
 }
 
-.solution ul li {
-    margin-bottom: 10px;
-}
 .custom-bullet{
     list-style-image: url(./assets/CheckCircle.png);
 }
 
+.btn-get {
+    color: #ffffff;
+    padding: 16px 16.5px;
+    border-radius: 5px;
+    background-color: #469165;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    
+    
+}
+
+.btn-get:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
 
 /* CTA */
 .cta {
