@@ -25,3 +25,24 @@ body {
     color: #0f172a;
     font-weight: 500;
 }
+.badge {
+    background: #fefffe;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+.btn-primary {
+    background: #22c55e;
+    color: #fff !important;
+    padding: 10px 18px;
+    border-radius: 6px;
+    
+}
+
+.btn-outline {
+    border: 1px solid #cbd5e1;
+    padding: 10px 18px;
+    border-radius: 6px;
+    color: #fcfcfc;
+    background-color: #d4d4d400;
+}
